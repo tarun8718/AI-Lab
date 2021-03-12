@@ -9,7 +9,7 @@ class Graph:
         self.graph[u].append(v)
     
     def BFS(self,v):
-        print("The BFS traversal of the given grapgh is as follows: ")
+        print("The BFS traversal of the given graph is as follows: ")
         visited = [False] * (max(self.graph) + 1)
         queue = []
         queue.append(v)
